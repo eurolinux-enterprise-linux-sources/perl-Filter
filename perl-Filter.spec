@@ -1,6 +1,6 @@
 Name:           perl-Filter
 Version:        1.49
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Perl source filters
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -60,6 +60,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.49-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.49-2
+- Mass rebuild 2013-12-27
+
 * Thu Apr 04 2013 Petr Pisar <ppisar@redhat.com> - 1.49-1
 - 1.49 bump
 
